@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Fake News</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/logo.jpg" />
+  <link rel="stylesheet" type = "text/css" href="css\contact.css" />
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <header>
+          <a href = "index.html">  <img id = "logo" src="images/logo.jpg" alt="Fake News Logo" style="width:100px" /></a>
+      <nav> <!-- the beginning of the navigation-->
+        <ul>
+          <li><a class = "active" href = "contact.html">Contact</a></li>
+          <li><a href = "videos.html">Videos</a></li>
+          <li><a href = "news.html">News</a></li>
+          <li><a href = "information.html">Information</a></li><div class="vl"></div>
+          <li><a href = "index.html">Home</a></li>
+        </ul>
+      </nav> <!-- end of navigation-->
+
+    </header><!-- end of header -->
+
+    <hr/>
+
+    <main><!-- the beginning of main-->
+        <form action="/action_page.php">
+        <div class="title">
+          <img src="images/contact_back.jpg" style="width:100%; filter:brightness(40%); border-top-left-radius:15px; border-top-right-radius:15px;">
+          <p id="maintitle">Contact Us</p></div>
+
+         <div class="cap"> Full Name:
+          <input type="text" name="firstname" placeholder="Your name..." onclick="this.style.color='blue'"></div>
+
+          <div class="cap">Email:
+          <input type="text" name="lastname" placeholder="Your email..."></div>
+
+          <div class="cap">Phone:
+          <input type="text" name="lastname" placeholder="Your telephone number..."></div>
+
+          <div class="cap">
+            <textarea id="subject" name="subject" placeholder="Write your message.." style="height:200px"></textarea>
+<p style="float:right;">Message:</p>
+          </div>
+          <input id="btnsub" type="submit" value="Submit">
+    </main><!-- end of main content-->
+  </div> <!-- end of wrapper -->
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script src="jsjava/contact.js"></script>
+
+</body>
+</html>
